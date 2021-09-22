@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: Rongbing Miao
+  description: An Ansible role for installing libraries that support PostgreSQL Ansible modules.
+  company: Boston Public Library
+  license: Apache
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - xenial
+  categories:
+  - database:sql
+dependencies:
+  - { role: "ansible-python", python_development: True }
+  - { role: "ansible-role-pip" }

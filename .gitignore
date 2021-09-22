@@ -1,0 +1,6 @@
+.vagrant
+
+examples/roles/azavea.python
+examples/roles/azavea.pip
+
+*.retry
